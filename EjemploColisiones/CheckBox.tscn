@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CheckBox.gd" type="Script" id=1]
+
+[node name="CheckBox" type="CheckBox"]
+margin_right = 24.0
+margin_bottom = 24.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="toggled" from="." to="." method="_on_CheckBox_toggled"]
