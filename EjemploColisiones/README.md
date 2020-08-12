@@ -1,2 +1,2 @@
-# rafanoid
- Código del juego Rafanoid para el motor Godot
+# Collision Mask and Layer
+ Ejemplo para entender el funcionamiento de las máscaras y capas de colisión
