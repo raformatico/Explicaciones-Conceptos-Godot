@@ -89,18 +89,24 @@ func on_pressed(pressed : bool, b_name : String) -> void:
 
 func _on_ball1_body_entered(body: Node) -> void:
 	#ball_lab1.visible = true
+	print("BALL")
+	print(body.name)
 	var lab : Label = body.get_node("Label")
 	lab.visible = true
 
 
 func _on_block1_body_entered(body: Node) -> void:
 	#block_lab1.visible = true
+	print("BLOCK")
+	print(body.name)
 	var lab : Label = body.get_node("Label")
 	lab.visible = true
 
 
 func _on_gift1_body_entered(body: Node) -> void:
 	#gift_lab1.visible = true
+	print("GIFT")
+	print(body.name)
 	var lab : Label = body.get_node("Label")
 	lab.visible = true
 
